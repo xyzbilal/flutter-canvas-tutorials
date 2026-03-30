@@ -36,7 +36,7 @@ class MyCanvas extends CustomPainter {
     canvas.drawRect(rect, border);
   }
 
-  var chartW = 500.0;
+  var chartW = 380.0;
   var chartH = 150.0;
   void drawChart(Canvas canvas, Offset center) {
     var rect = Rect.fromCenter(center: center, width: chartW, height: chartH);

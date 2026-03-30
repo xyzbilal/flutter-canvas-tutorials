@@ -1,3 +1,5 @@
+/*
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -13,7 +15,7 @@ class WeeklyChart extends StatefulWidget {
 }
 
 class _WeeklyChartState extends State<WeeklyChart> {
-  List<double> weekData;
+  List<double> weekData = ;
   double minD = double.maxFinite;
   double maxD = -double.maxFinite;
   double rangeD = 1.0;
@@ -63,3 +65,5 @@ class _WeeklyChartState extends State<WeeklyChart> {
     );
   }
 }
+
+*/
